@@ -54,4 +54,18 @@ local Window = Library.CreateLib("HugosOnTop", "Ocean")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
 
         Fly(true)
-    end)
+end)
+
+    --Jailbreak
+    local Jailbreak = Window:NewTab("Jailbreak")
+    local JailbreakSection = Jailbreak:NewSection("Jailbreak")
+
+  JailbreakSection:NewButton("Autoarrest", "Lets you make the game shit for other players", function()
+       loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/13c61b19690eeef04abb4005c3689770.lua"))()
+       end)
+
+
+        JailbreakSection:NewButton("JailbreakClient", "Not mine ", function()
+      loadstring(game:HttpGet("https://projectevo.xyz/v4/script.lua", true))();
+end)
+       
